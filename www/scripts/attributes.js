@@ -24,3 +24,22 @@ $linkDom.setAttribute("href","http://www.facebook.com");
 console.log($linkDom.hasAttribute("rel"));
 $linkDom.removeAttribute("rel");
 console.log($linkDom.hasAttribute("rel"));
+
+
+// Data Attributes
+
+// Con este comando sacamos el tecto que tiene el atributo "data-description"
+console.log($linkDom.getAttribute("data-description"));
+// Con este atributo sacamos el dataset de la clase ".link-dom"
+console.log($linkDom.dataset);
+console.log($linkDom.dataset.description);
+//Para establecer el valor utilizariamo : setAttribute
+$linkDom.setAttribute("data-description", "Modelo de Objeto del Documento");
+console.log($linkDom.dataset.description);
+$linkDom.dataset.description = "Susbscribete a mi canal y comparte";
+console.log($linkDom.dataset.description);
+
+
+
+
+
