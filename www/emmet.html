@@ -1,0 +1,160 @@
+// EMMET
+
+// Emmet es un conjunto de complementos para editores de texto que permiten 
+// la codificación y edición de alta velocidad en HTML, XML, XSL y otros formatos de código 
+// estructurado a través de la asistencia de contenido.
+// Emmet, escribe código HTML y CSS a base de abreviaciones.
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/styles.css" media="screen" />
+        <title>Probando DOM</title>
+    </head>
+    <body>
+
+        <!-- header>nav>ul>li*5>a:link
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="http://"></a></li>
+                    <li><a href="http://"></a></li>
+                    <li><a href="http://"></a></li>
+                    <li><a href="http://"></a></li>
+                    <li><a href="http://"></a></li>
+                </ul>
+            </nav>
+        </header> -->
+
+        <!-- Ponerle una clase a section
+        section.estaEsMiClase
+        <section class="estaEsMiClase"></section> --> 
+
+        <!-- Ponerle a section en una sola linea clase e id
+        section.estaEsMiClase#esteEsMiId
+        <section class="estaEsMiClase" id="esteEsMiId"></section> -->
+            
+        <!-- header>nav>ul>li*5>a:link[target="_blank"]{Menu#$}-->
+
+        <!-- ETIQUETAS DE HEAD (GENERACION RAPIDA) -->
+        <!-- Etqueta meta 
+        meta:vp
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+        <!-- Etiqueta CSS 
+        link:css
+        <link rel="stylesheet" href="style.css"> -->
+
+        <!-- Etiqueta favicon
+        link:favicon
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+
+        <!-- Simbolo de adimiracion para escribir toda la estructura de HTML.
+        !
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+            
+        </body>
+        </html> -->
+
+        <!-- Meter varios elementos al mismo nivel dentro de un elemento
+        header>p*5+div>p*2
+        <header>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <div>
+                <p></p>
+                <p></p>
+            </div>
+        </header> -->
+
+        <!-- Dibujando tablas : 5filas con 3 columnas dentro de cada fila
+        table>td*5>tr*3 
+        <table>
+            <td>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+            </td>
+            <td>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+            </td>
+            <td>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+            </td>
+            <td>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+            </td>
+            <td>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+            </td>
+        </table> -->
+
+        <!-- Por el contexto emmet entiende que son filas y columnas . Asi pues si quremos
+        denominar a las clases de las filas y a las clases de las columnas columnas filas
+
+        <table>
+            <tr class="filas">
+                <td class="columnas"></td>
+                <td class="columnas"></td>
+                <td class="columnas"></td>
+            </tr>
+            <tr class="filas">
+                <td class="columnas"></td>
+                <td class="columnas"></td>
+                <td class="columnas"></td>
+            </tr>
+            <tr class="filas">
+                <td class="columnas"></td>
+                <td class="columnas"></td>
+                <td class="columnas"></td>
+            </tr>
+            <tr class="filas">
+                <td class="columnas"></td>
+                <td class="columnas"></td>
+                <td class="columnas"></td>
+            </tr>
+            <tr class="filas">
+                <td class="columnas"></td>
+                <td class="columnas"></td>
+                <td class="columnas"></td>
+            </tr>
+        </table> -->
+        
+
+        <!-- Para formularios para get y para post
+        form:get
+        <form action="" method="get"></form>
+        form:post
+        <form action="" method="post"></form> -->
+
+        <!-- Para combinar con input 
+        input:text
+        <input type="text" name="" id="">
+        input:checkbox
+        <input type="checkbox" name="" id="">
+        input:email
+        <input type="email" name="" id=""> -->
+
+
+    </body>
+</html>

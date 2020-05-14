@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" type="text/css" href="styles/styles.css" media="screen" /> -->
+        <title>Destructuracion</title>
+    </head>
+    <body>
+        <script>
+
+            const numeros =[1,2,3];
+            
+            // SIN UTILIZAR LA DESTRUCTURACION
+
+            let numero1 = numeros[0];
+            let numero2 = numeros[1];
+            let numero3 = numeros[2];
+
+            console.log(numero1,numero2,numero3);
+
+            // CON Destructuracion
+
+            const [one,two,three] = numeros;
+            console.log(one,two,three);
+
+
+            let persona ={
+                nombre:"Raul",
+                apellido:"Lopez",
+                edad:34
+            }
+
+            let{nombre,apellido,edad} = persona;
+            console.log(nombre,apellido,edad);
+
+        </script>
+         
+    </body>
+</html>
